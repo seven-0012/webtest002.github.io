@@ -1,0 +1,40 @@
+/*參數設定*/
+:root{
+    --green: #00ffff;
+    --white: #FFFFFF;
+    --black: #000000;
+    --font1: monospace;
+    --font2: helvetica;
+
+}
+.memo1{
+    position: absolute;
+    height: 80%;
+    width: 20%;
+    /*width: 400px;
+    height: 40px;*/
+    font-family:'微軟正黑體';
+    font-size:x-large;
+    color:red;
+    background-color: rgb(170, 188, 250);
+    border-style: dashed;
+    border-radius: 5px 5px 5px 5px;
+    top:40px;
+    left:0;
+    padding-left: 1%;
+}
+.memo2{
+    position: absolute;
+    background: #ffaaff;
+    border-style: dashed;
+    border-radius: 5px 5px 5px 5px;
+    height: 80%;
+    width: 87%;
+    top: 40px;
+    left: 21%;
+    padding-left: 1%;
+}
+h1{
+    background-color: #009ac9;
+    font-size: 20px;
+}
