@@ -1,0 +1,135 @@
+/*參數設定*/
+:root{
+    --green: #00ffff;
+    --white: #FFFFFF;
+    --black: #000000;
+    --font1: monospace;
+    --font2: helvetica;
+
+}
+.light_theme{
+    --bg:var(--green);
+    --fontcoloe:var(--black);
+    font-family: var(--font1);
+}
+.drak_thmem{
+    --bg:var(--black);
+    --fontcoloe:var(--green);
+    font-family: var(--font2);
+}
+/*頁面設定*/
+body {
+    background: var(--bg);
+    color:var(--fontcoloe);
+    font-family: var(--font1);
+    padding: 0;
+    margin: 0;
+}
+ul {
+    font-family:Helvetica;
+}
+li{
+    list-style: circle;
+}
+.list{
+    list-style: square;
+}
+#msg{
+    background: rgb(63, 153, 255);
+    font-family: monospace;
+}
+.left{
+    position: absolute;
+    background: #FFFFFF;
+    height: 100%;
+    width: 10%;
+    top:0;
+    left:0;
+    padding-left: 1%;
+}
+.right{
+    position: absolute;
+    background: #ffaaff;
+    height: 80%;
+    width: 87%;
+    top:0;
+    left: 11%;
+    padding-left: 1%;
+}
+.down{
+    position: absolute;
+    background: yellowgreen;
+    height: 20%;
+    width: 87%;
+    top:80%;
+    left: 11%;
+    padding-left: 1%;
+}
+.btn{
+    width: 200px;;
+    height: 80px;
+    font-family: helvetica;
+    font-size: large;
+    border-radius: 15px 15px 15px 15px;
+}
+.btn2{
+    width: 200px;;
+    height: 80px;
+    font-family:'微軟正黑體';
+    font-size:x-large;
+    color:red;
+    background-color: rgb(245, 158, 51);
+    border-radius: 15px 15px 15px 15px;
+}
+.btn3{
+    width: 200px;;
+    height: 80px;
+    font-family:'微軟正黑體';
+    font-size:x-large;
+    color:red;
+    background-color: rgb(245, 158, 51);
+    border-radius: 15px 15px 15px 15px;
+}
+.inputtext{
+    width: 200px;;
+    height: 40px;
+    font-family:'微軟正黑體';
+    font-size:x-large;
+    color:red;
+    background-color: rgb(170, 188, 250);
+    border-radius: 15px 15px 15px 15px;
+}
+.haed2{
+    background: yellow;
+    font-family: helvetica;
+}
+h1{
+    background: yellow;
+    font-family: helvetica;
+    font-size: 40px;
+}
+table{
+    border: 1px solid #000;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+tr{
+    border: 2px solid #000;
+    background-color: rgb(200, 245, 200);
+    color: #000000;
+}
+td{
+    border: 2px solid #000;
+    background-color: rgb(200, 245, 200);
+    color: #000000;
+    padding: 10px;
+}
+.memo1{
+    /*width: 200px;
+    height: 40px;*/
+    font-family:'微軟正黑體';
+    font-size:x-large;
+    color:red;
+    background-color: rgb(170, 188, 250);
+    border-radius: 15px 15px 15px 15px;
+}
